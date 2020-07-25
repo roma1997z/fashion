@@ -27,3 +27,11 @@ Adam, 20 epochs, lr = 0.002
 ## Results
 
 auc score: 0.70 test/ 0.85 train
+
+# Preprocessing labels
+
+Initially labels are stores in .mat file, with a script to convert to json
+For classification i convert it to csv table (index = image_id, columns = categories, 1 if category is at image)
+
+The resulting file is category_01.csv
+The script to convert json -> csv cfpd_pre.ipynb
