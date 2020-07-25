@@ -2,7 +2,7 @@
 
 Main file: cfpd_cloth.ipynb
 ## Dataset
-CFPD dataset: 19 cloth categories, 2500 images with people, multi label annotation of clothes
+<a href = "https://github.com/hrsma2i/dataset-CFPD"> CFPD dataset </a>: 19 cloth categories, 2500 images with people, multi label annotation of clothes
 
 Also has segmentation info but not used in this project
 
@@ -22,6 +22,8 @@ Final layer was sigmoid of num_classes size, each neuron representing the probab
 Loss: binary_croosentropy 
 
 ## Training
+
+Data was splitted into train and test sets
 
 Adam, 20 epochs, lr = 0.002
 
